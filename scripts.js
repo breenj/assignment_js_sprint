@@ -1,8 +1,8 @@
 // FILL IN THE FUNCTIONS BELOW
 
 var sprintFunctions = {
-  largestEl: function(){  
-    // your code here
+  largestEl: function(numArray){  
+    return Math.max.apply(null, numArray);
   },
   
   reversed: function(){  
